@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "SSH FS - usc",
+			"uri": "ssh://usc/home1/sadekunl"
+		}
+	],
+	"settings": {}
+}

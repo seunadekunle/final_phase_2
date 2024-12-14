@@ -1,0 +1,105 @@
+# Project specific
+steps.md
+.cursorrules
+
+# Large files and directories
+*.pth  # model checkpoints
+*.pt   # pytorch model files
+*.ckpt # checkpoint files
+*.h5   # hdf5 files
+*.pkl  # pickle files
+*.npy  # numpy files
+*.npz  # compressed numpy files
+*.tar  # archive files
+*.gz   # gzipped files
+*.zip  # zip archives
+*.rar  # rar archives
+*.7z   # 7zip archives
+*.bin  # binary files
+*.data # data files
+*.pb   # protobuf files
+*.onnx # ONNX model files
+*.tflite # TensorFlow Lite files
+*.mlmodel # Core ML model files
+*.torchscript # TorchScript files
+*.safetensors # SafeTensors files
+*.pbtxt # protobuf text files
+*.caffemodel # Caffe model files
+*.mat # MATLAB files
+*.hdf5 # HDF5 files
+*.json # Large JSON files in experiments directory
+experiments/**/*.json
+
+# Data directories
+data/
+raw_data/
+processed_data/
+checkpoints/
+logs/
+weights/
+saved_models/
+pretrained/
+cache/
+*.tfevents.*  # tensorboard event files
+wandb/  # weights and biases
+mlruns/  # MLflow
+runs/    # general experiment runs
+results/ # results directory
+output/  # output directory
+experiments/**/checkpoints/
+experiments/**/logs/
+experiments/**/*.log
+src/experiments/
+
+# Large media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.flac
+
+# Dataset specific
+*.record  # TFRecord files
+*.lmdb    # LMDB databases
+*.mdb     # Microsoft Database files
+*.sqlite  # SQLite databases
+*.db      # generic database files
+*.arrow   # Apache Arrow files
+*.parquet # Parquet files
+*.feather # Feather format files
+
+# IDE and system files
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env/
+.venv/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.swp
+*.swo
+*~
